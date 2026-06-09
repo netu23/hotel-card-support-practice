@@ -1,0 +1,44 @@
+.item {
+  background: #ffffff;
+  border: 1px solid #d6dde5;
+  border-radius: 8px;
+  color: inherit;
+  display: grid;
+  gap: 6px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding: 16px;
+  text-align: left;
+  width: 100%;
+}
+
+.item:hover {
+  border-color: #8a9aa8;
+}
+
+.selected {
+  border-color: #007d78;
+  box-shadow: 0 0 0 2px rgba(0, 125, 120, 0.16);
+}
+
+.merchant {
+  font-weight: 700;
+}
+
+.meta,
+.date {
+  color: #647381;
+  font-size: 0.8rem;
+}
+
+.amount {
+  align-self: start;
+  font-weight: 800;
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  white-space: nowrap;
+}
+
+.date {
+  grid-column: 1 / -1;
+  overflow-wrap: anywhere;
+}

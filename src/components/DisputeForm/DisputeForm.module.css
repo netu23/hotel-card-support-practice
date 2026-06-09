@@ -1,0 +1,19 @@
+.card {
+  background: #ffffff;
+  border: 1px solid #d6dde5;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.card h2 {
+  font-size: 1rem;
+  margin: 0 0 12px;
+}
+
+.placeholder {
+  background: #f4f7f9;
+  border: 1px dashed #aebbc6;
+  border-radius: 8px;
+  color: #647381;
+  padding: 16px;
+}
